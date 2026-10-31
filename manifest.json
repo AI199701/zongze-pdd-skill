@@ -1,0 +1,31 @@
+{
+  "name": "zongze-pdd-skill",
+  "display_name": "宗泽PDD实战·拼多多强付费运营全体系",
+  "version": "2.0.0",
+  "format": "agent-skills",
+  "source": {
+    "platform": "抖音",
+    "creator": "@宗泽PDD实战",
+    "videos": 525,
+    "transcript_chars": 900543,
+    "crawled_at": "2026-10-31"
+  },
+  "generator": "cangjie-skill v2.5.0 (RIA-TV++)",
+  "entry": "zongze-pdd-quanxitu",
+  "skills": [
+    "ceijia-celianjie",
+    "chesun-juece-baoben",
+    "chujia-xingshi-xuanze",
+    "cuofeng-lache",
+    "lengqidong-chujia-fudu",
+    "qilian-sanjieduan",
+    "qilian-wuxiang-zhunbei",
+    "titouchan-jiezou",
+    "xiane-shezhi-fangdakai",
+    "zhitongche-shuju-zhibiao",
+    "zongze-pdd-quanxitu"
+  ],
+  "capabilities": 18,
+  "promoted": 10,
+  "router": 8
+}
