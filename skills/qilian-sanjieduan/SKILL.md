@@ -2,6 +2,7 @@
 name: qilian-sanjieduan
 description: |
   起链接全流程怎么做；起链接分几个阶段；新链接怎么起步。按链接识别→出价识别→付费激活三段推进起链接。
+  Use when launching a new Pinduoduo listing: the three stages (link recognition -> bid recognition -> paid activation) and their pass criteria (500 impressions, 400/day spend, 85% of break-even).
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.qilian-sanjieduan
@@ -76,3 +77,9 @@ metadata:
 
 - 🔴 转投产比前：确认已到保本 85%，否则 STOP
 - 🛑 连续两轮无 500 曝光：STOP，回退查内功，不得加大车损
+
+## 参数依据（为什么是这些数）
+
+- 500 曝光：系统给新链接的最小测试池，低于它无法判断赛道宽度。
+- 3 天沉淀：平台数据有 3 天滞后，短于 3 天会把波动当成趋势。
+- 保本 85%：留出提投产回本空间，又不至于深亏到无法修正。

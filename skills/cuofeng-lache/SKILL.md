@@ -2,6 +2,7 @@
 name: cuofeng-lache
 description: |
   错峰怎么操作；拉扯怎么做。优先错峰切出价形式，无效再拉扯猛降缓升。
+  Use for off-peak switching versus pull-push: switch the worst-spend hours to conversion bid at 1.05-1.2x net CPC; after two failures wait 28 days or use pull-push.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.cuofeng-lache
@@ -73,3 +74,8 @@ metadata:
 
 - 🔴 错峰前：确认主推广是投产比且每笔利润 ≥4 元
 - 🛑 连续两次错峰无效：STOP，转拉扯
+
+## 参数依据（为什么是这些数）
+
+- 1.05–1.2 倍：覆盖净扣费波动区间，又不至于在错峰期亏太多。
+- 28 天：给系统重新学习出价与人群的时间。

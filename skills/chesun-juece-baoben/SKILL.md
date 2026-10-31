@@ -2,6 +2,7 @@
 name: chesun-juece-baoben
 description: |
   起链接要不要车损；车损多大。盈利>保本>微亏>巨损分级，巨损只用车损。
+  Use when launching a listing and deciding loss tolerance: profit > break-even > slight loss (85-90%) > normal loss (75-80%) > heavy loss (50%); never touch product cost.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.chesun-juece-baoben
@@ -81,3 +82,9 @@ metadata:
 
 - 🔴 定车损档位前：确认保本投产
 - 🛑 两天无付费速率：STOP，放弃该链接
+
+## 参数依据（为什么是这些数）
+
+- 85–90% 微亏：离保本近，掉量风险小，回本只需一轮提投产。
+- 75–80% 一般亏：仍保留回本空间，适合多数中腰部。
+- 50% 巨亏：接近一半利润，只适合资金极厚的冲量或清仓。

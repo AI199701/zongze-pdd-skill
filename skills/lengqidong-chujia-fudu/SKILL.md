@@ -2,6 +2,7 @@
 name: lengqidong-chujia-fudu
 description: |
   冷启动出价调多少；多久调一次出价。小幅多次起步，拿不到500曝光转大幅长间隔。
+  Use for cold-start bid steps: 5% every 4 hours up to 3 times a day, then 8% every 1-1.5 days when 500 impressions are not reached.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.lengqidong-chujia-fudu
@@ -72,3 +73,8 @@ metadata:
 
 - 🔴 第二段加价前：确认已沉淀 3 天
 - 🛑 曝光开始放大：STOP 加价
+
+## 参数依据（为什么是这些数）
+
+- 5% × 4h：小幅高频，避免被系统判定为异常操作。
+- 8% × 1.5 天：多次小幅无效后，用更大间隔换探索空间。

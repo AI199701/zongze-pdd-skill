@@ -2,6 +2,7 @@
 name: xiane-shezhi-fangdakai
 description: |
   限额怎么设置；什么时候放限额。按保本偏离决定先提投产还是先放限额。
+  Use for budget caps: 100-150 below 70% of break-even, 250-300 at 85%, 400+ near break-even; release caps from small to large.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.xiane-shezhi-fangdakai
@@ -75,3 +76,8 @@ metadata:
 
 - 🔴 放限额前：确认当前投产位置
 - 🛑 实际花费超设置值 20%：STOP，压限额
+
+## 参数依据（为什么是这些数）
+
+- 100–150 / 250–300 / 400+：亏损越深限额越低，先控速再谈放量。
+- 由小变大：只有临近保本才敢多放，防止一次性花冒。

@@ -2,6 +2,7 @@
 name: zhitongche-shuju-zhibiao
 description: |
   直通车看哪些数据；数据优先级。前期看转化、中期看占比、后期看点击率。
+  Use for ad data priorities: spend rate, impressions, CTR, CVR, paid-impression share; early CVR/share, mid share, late CTR.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.zhitongche-shuju-zhibiao
@@ -75,3 +76,8 @@ metadata:
 
 - 🔴 下结论前：确认五项指标齐全
 - 🛑 指标互相矛盾：STOP，先平衡变量
+
+## 参数依据（为什么是这些数）
+
+- 前期转化 / 中期占比 / 后期点击率：对应比价机制的三个阶段。
+- 五项指标：覆盖量、质、成本、转化、出价竞争力，缺一项就会误判。

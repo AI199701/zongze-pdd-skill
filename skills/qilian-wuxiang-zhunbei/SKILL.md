@@ -2,6 +2,7 @@
 name: qilian-wuxiang-zhunbei
 description: |
   起链接前要准备什么；怎么选品定价。用五步串行筛选出可起链接的品/价/链接。
+  Use before launching a listing: five serial preparations (product screening, competitor price bands, product testing, price testing, listing testing) and what each step must output.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.qilian-wuxiang-zhunbei
@@ -72,3 +73,8 @@ metadata:
 
 - 🔴 进入起链接前：五项均有结论，否则 STOP
 - 🛑 任一步缺数据：STOP，不得带病起链接
+
+## 参数依据（为什么是这些数）
+
+- 上下 10% 毛利：覆盖相邻价格带，又不至于跨档导致数据失真。
+- 五项串行：后一步依赖前一步的数据，跳步会把测试结果误判。

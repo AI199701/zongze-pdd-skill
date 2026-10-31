@@ -2,6 +2,7 @@
 name: titouchan-jiezou
 description: |
   怎么提投产；提投产后看几天。每次5-10%、间隔3天、观测3天做赛道取舍。
+  Use when raising ROAS: 5-10% per step, observe 3 days (2-5), keep going if spend drop is at least 3x the raise, otherwise hold the floor.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.titouchan-jiezou
@@ -71,3 +72,9 @@ metadata:
 
 - 🔴 提投产前：确认当前值与保本投产
 - 🛑 连续两轮掉量：STOP，换链接
+
+## 参数依据（为什么是这些数）
+
+- 5–10%：幅度太大会被判定异常操作，太小则提不动。
+- 花费降幅 ≥ 幅度×3：超过等比例掉量，才说明赛道真的站住。
+- 3 天观测：平台数据有滞后，短于 3 天容易把波动当趋势。

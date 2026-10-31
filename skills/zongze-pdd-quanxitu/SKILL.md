@@ -2,6 +2,7 @@
 name: zongze-pdd-quanxitu
 description: |
   宗泽PDD实战强付费运营体系来源路由：当问题涉及拼多多起链接、测价、出价、限额、车损、提投产、错峰拉扯、数据指标、比价、裂变、定制批发出价时，路由到对应能力卡；不适用于非拼多多平台或纯自然流场景。
+  Use when a question involves Pinduoduo paid traffic: launching a listing, price testing, bid type, budget caps, loss tolerance, ROAS raising, off-peak switching, ad metrics, price competition, listing splits, or custom/wholesale bidding.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.variant: router
@@ -88,3 +89,7 @@ metadata:
 
 - 🔴 给限额/车损建议前：确认保本投产
 - 🛑 意图超出范围：STOP，明确告知
+
+## 参数依据（为什么是这些数）
+
+- 最多 2 张能力卡：避免上下文过载与多卡结论冲突。

@@ -2,6 +2,7 @@
 name: ceijia-celianjie
 description: |
   怎么测价；怎么测链接；3%降毛利。测价控变量、测链接放变量，3%降毛利精筛。
+  Use when testing price versus testing listing: price test holds everything but price equal, listing test varies everything but price; refine with 3% gross-margin cuts every 3 days.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.ceijia-celianjie
@@ -71,3 +72,8 @@ metadata:
 
 - 🔴 精筛前：确认初筛已完成
 - 🛑 花费明显上升：STOP，不再降毛利
+
+## 参数依据（为什么是这些数）
+
+- 3% 降毛利：约等于一个价格档位的最小可测差；降定价会放大毛利波动。
+- 3 天间隔：给系统重新匹配赛道的时间，短于 3 天测不出真实反应。

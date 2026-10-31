@@ -2,3 +2,5 @@ timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
 2026-10-31T17:50	f8793f4	11-skills	70.3	3-1 better	keep	dim3	if-then兜底表; titouchan 2better/1worse 修正第二行	paired
 2026-10-31T17:51	083d64e	11-skills	3-1 better	3-1 better	keep	dim9	黑名单; judge指多复述,margin=slight	paired
 2026-10-31T17:52	85d2b86	11-skills	3-1 better	3-1 better	keep	dim4	🔴前置门有效,🛑略重复;三轮均slight→收手	paired
+2026-10-31T21:35	87e8f3c	11-skills	8.0	3-1 better	keep	dim8	full_test with8/baseline6; 补参数依据; chesun 1better1worse1tie	full_test+paired
+2026-10-31T21:36	3de34ed	11-skills	7.0	3-0 better	keep	dim1	英文触发词; titouchan一条clear; chesun补场景词	paired

@@ -2,6 +2,7 @@
 name: chujia-xingshi-xuanze
 description: |
   用成交出价还是投产比；出价方向怎么选。按品类与阶段选成交出价或投产比，并定方向。
+  Use when choosing a bid type: conversion bid buys precision, ROAS bid buys GMV; pick the direction (low-to-high or high-to-low) and the switch point.
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.capability-id: cap.zongze.chujia-xingshi-xuanze
@@ -71,3 +72,8 @@ metadata:
 
 - 🔴 切换出价形式前：确认当前阶段与精度需求
 - 🛑 精度连续下滑：STOP，回退成交出价
+
+## 参数依据（为什么是这些数）
+
+- 成交出价买精度：转化率优先，适合带功能性的非标品。
+- 投产比买 GMV：适合成型后收割，起链接期直接用会丢精度托底。
